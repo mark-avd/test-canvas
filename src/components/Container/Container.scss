@@ -1,0 +1,22 @@
+.container {
+  padding: 22px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  &__canvas {
+    position: relative;
+  }
+
+  &__description {
+    top: 0;
+    left: 101%;
+    width: max-content;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
